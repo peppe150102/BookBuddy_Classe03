@@ -1,0 +1,99 @@
+.logo {
+    filter: brightness(0) saturate(100%) invert(37%) sepia(13%) saturate(1155%) hue-rotate(200deg) brightness(101%) contrast(85%);
+}
+
+.main-bg {
+    background-color: hsl(233, 37%, 18%);
+}
+
+.nav-font {
+    color: hsl(239, 18%, 47%);
+}
+
+.active {
+    color: hsl(231, 18%, 77%);
+}
+
+.icon-fill {
+    filter: brightness(0) saturate(100%) invert(37%) sepia(13%) saturate(1155%) hue-rotate(200deg) brightness(101%) contrast(85%);
+}
+
+.icon-fill.active {
+    filter: brightness(0) saturate(100%) invert(86%) sepia(89%) saturate(5%) hue-rotate(188deg) brightness(109%) contrast(97%);
+}
+
+.home {
+    background-color: hsl(233, 36%, 22%);
+    border-radius: 6% 0 0% 0% / 10% 0% 10% 24%;
+    width: 65%;
+}
+
+.search-zone {
+    position: relative;
+    width: 90%;
+}
+
+.search-bar {
+    padding: .15rem .5rem;
+    background-color: hsl(231, 36%, 31%);
+    width: 100%;
+}
+
+.search-bar::placeholder {
+    padding-left: 1.8rem;
+    color: white;
+}
+
+.search-icon {
+    position: absolute;
+    left: 8px;
+    bottom: 5px;
+    width: 20px;
+    filter: brightness(0) saturate(100%) invert(86%) sepia(89%) saturate(5%) hue-rotate(188deg) brightness(109%) contrast(97%);
+}
+
+.banner {
+    width: 90%;
+    z-index: 5;
+    background-color: hsl(229 37% 26% / .6);
+    overflow: hidden;
+}
+
+.banner::before {
+    content: "";
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    bottom: -50px;
+    right: 180px;
+    border-radius: 100%;
+    background-color: rgba(100, 119, 200, 0.6);
+}
+
+.banner::after {
+    content: "";
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    border-radius: 100%;
+    background-color: rgba(100, 119, 200, 0.6);
+}
+
+.banner-button {
+    background-color: hsl(235, 36%, 18%);
+}
+
+.reco {
+    color: hsl(231, 18%, 80%);
+}
+
+.profile-button {
+    background-color: hsl(229, 37%, 36%);
+}
+
+.user-unknown
+{
+    filter: invert(1);
+}
