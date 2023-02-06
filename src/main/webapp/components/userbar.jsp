@@ -23,7 +23,7 @@
                                     <p class="text-white text-opacity-90">${studente.nome_utente}</p>
                                     <% } %>
                                         <a class="rounded-full text-white text-opacity-70 profile-button px-5 py-2 text-sm"
-                                            href="">Vedi
+                                            href="${pageContext.request.contextPath}/results/userArea.jsp">Vedi
                                             Profilo</a>
                                         <a class="rounded-full text-white text-opacity-70 profile-button px-5 py-2 text-sm"
                                             href="${pageContext.request.contextPath}/Logout">Log
